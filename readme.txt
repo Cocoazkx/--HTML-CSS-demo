@@ -1,33 +1,32 @@
-HTML5+CSS3³õ¼¶Á·Ï°ÍêÕûdemo£¬
-Ö÷Òª°üº¬HTML5+CSS3»ù´¡ÖªÊ¶£¬¸÷ÖÖ³£ÓÃ±êÇ©µÄÒâÒå¼°»ù±¾ÓÃ·¨Ê¾Àý¡£
+HTML5+CSS3åˆçº§ç»ƒä¹ å®Œæ•´demoï¼Œ
+ä¸»è¦åŒ…å«HTML5+CSS3åŸºç¡€çŸ¥è¯†ï¼Œå„ç§å¸¸ç”¨æ ‡ç­¾çš„æ„ä¹‰åŠåŸºæœ¬ç”¨æ³•ç¤ºä¾‹ã€‚
 _______________________________________________________________________________________________________________________________________________________
-¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª
 
-HTML5²¿·Ö¾ßÌåÄÚÈÝ°üÀ¨£º
-ÓïÒå»¯±êÇ©£º<p>¶ÎÂä±êÇ©£¬<span>±êÇ©×Ô¶¨ÒåÎÄ×ÖÑùÊ½£¬<hx>±êÌâ±êÇ©£¬<div>¿é£¬<header>±êÇ©¶¨ÒåÍ·²¿£¬<footer>±êÇ©¶¨Òåµ×²¿£¬<section>±êÇ©¶¨ÒåÕýÎÄÇø¶Î£¬<aside>±êÇ©¶¨Òå²à±ßÀ¸ÇøÓò£»
-Ð§¹û±êÇ©£º<br />±êÇ©ÊµÏÖ»»ÐÐÐ§¹û£¬ÌØÊâ×Ö·û&nbsp;ÊµÏÖ¿Õ¸ñÐ§¹û£¬<hr />±êÇ©ÊµÏÖË®Æ½Ïß£»
-ÁÐ±í±êÇ©£ºÊ¹ÓÃ<ul><li>ÊµÏÖÎÞÐòÁÐ±í£¬Ê¹ÓÃ<ol><li>ÊµÏÖÓÐÐòÁÐ±í£»
-Ê¹ÓÃ<img>±êÇ©Ìí¼ÓÍ¼Æ¬£¬Ê¹ÓÃ<a>±êÇ©Ìí¼ÓÁ´½Ó£¬Ê¹ÓÃtableÌí¼Ó±í¸ñ£¬Ê¹ÓÃthead¡¢tbody¡¢tfood¶¨Òå±í¸ñ£»
-±íµ¥±êÇ©£ºÊ¹ÓÃ<form>´´½¨±íµ¥£¬ÎÄ±¾ÊäÈë¿ò£¬ÃÜÂëÊäÈë¿ò£¬Êý×ÖÊäÈë¿ò£¬ÍøÖ·ÊäÈë¿ò£¬ÓÊÏäÊäÈë¿ò£¬<textarea>´´½¨ÎÄ±¾Óò£¬µ¥Ñ¡¿ò£¬¸´Ñ¡¿ò£¬Ê¹ÓÃselect¡¢option´´½¨ÏÂÀ­²Ëµ¥£¬Ìá½»°´Å¥£¬ÖØÖÃ°´Å¥£»
+HTML5éƒ¨åˆ†å…·ä½“å†…å®¹åŒ…æ‹¬ï¼š
+è¯­ä¹‰åŒ–æ ‡ç­¾ï¼š<p>æ®µè½æ ‡ç­¾ï¼Œ<span>æ ‡ç­¾è‡ªå®šä¹‰æ–‡å­—æ ·å¼ï¼Œ<hx>æ ‡é¢˜æ ‡ç­¾ï¼Œ<div>å—ï¼Œ<header>æ ‡ç­¾å®šä¹‰å¤´éƒ¨ï¼Œ<footer>æ ‡ç­¾å®šä¹‰åº•éƒ¨ï¼Œ<section>æ ‡ç­¾å®šä¹‰æ­£æ–‡åŒºæ®µï¼Œ<aside>æ ‡ç­¾å®šä¹‰ä¾§è¾¹æ åŒºåŸŸï¼›
+æ•ˆæžœæ ‡ç­¾ï¼š<br />æ ‡ç­¾å®žçŽ°æ¢è¡Œæ•ˆæžœï¼Œç‰¹æ®Šå­—ç¬¦&nbsp;å®žçŽ°ç©ºæ ¼æ•ˆæžœï¼Œ<hr />æ ‡ç­¾å®žçŽ°æ°´å¹³çº¿ï¼›
+åˆ—è¡¨æ ‡ç­¾ï¼šä½¿ç”¨<ul><li>å®žçŽ°æ— åºåˆ—è¡¨ï¼Œä½¿ç”¨<ol><li>å®žçŽ°æœ‰åºåˆ—è¡¨ï¼›
+ä½¿ç”¨<img>æ ‡ç­¾æ·»åŠ å›¾ç‰‡ï¼Œä½¿ç”¨<a>æ ‡ç­¾æ·»åŠ é“¾æŽ¥ï¼Œä½¿ç”¨tableæ·»åŠ è¡¨æ ¼ï¼Œä½¿ç”¨theadã€tbodyã€tfoodå®šä¹‰è¡¨æ ¼ï¼›
+è¡¨å•æ ‡ç­¾ï¼šä½¿ç”¨<form>åˆ›å»ºè¡¨å•ï¼Œæ–‡æœ¬è¾“å…¥æ¡†ï¼Œå¯†ç è¾“å…¥æ¡†ï¼Œæ•°å­—è¾“å…¥æ¡†ï¼Œç½‘å€è¾“å…¥æ¡†ï¼Œé‚®ç®±è¾“å…¥æ¡†ï¼Œ<textarea>åˆ›å»ºæ–‡æœ¬åŸŸï¼Œå•é€‰æ¡†ï¼Œå¤é€‰æ¡†ï¼Œä½¿ç”¨selectã€optionåˆ›å»ºä¸‹æ‹‰èœå•ï¼Œæäº¤æŒ‰é’®ï¼Œé‡ç½®æŒ‰é’®ï¼›
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-CSS3²¿·Ö¾ßÌåÄÚÍ¬°üÀ¨:
-cssÒýÈë·½Ê½£ºÄÚÁªÊ½£¬Ç¶ÈëÊ½£¬Íâ²¿Ê½£¬ÈýÖÖÁ´½Ó·½Ê½ÓÅÏÈ¼¶£»
-cssÑ¡ÔñÆ÷£º±êÇ©Ñ¡ÔñÆ÷£¬ÀàÑ¡ÔñÆ÷£¬IDÑ¡ÔñÆ÷£¬ºó´úÑ¡ÔñÆ÷£¬Í¨ÓÃÑ¡ÔñÆ÷£¬Î±ÀàÑ¡ÔñÆ÷£¨¸øhtml±êÇ©µÄÄ³ÖÖ×´Ì¬ÉèÖÃÑùÊ½£©£¬·Ö×éÑ¡ÔñÆ÷£»
-ÑùÊ½¼Ì³Ð£¬ÓÅÏÈ¼¶£¬×î¸ß²ã¼¶£¡important£»
-css×ÖÌåÑùÊ½£ºfont-familyÉèÖÃ×ÖÌåÏµÁÐ£¬font-sizeÉèÖÃ×ÖÌå´óÐ¡£¬font-weightÉèÖÃ×ÖÌå´ÖÏ¸£¬font-styleÉèÖÃ×ÖÌåÑùÊ½£¬colorÉèÖÃ×ÖÌåÑÕÉ«µÄÈýÖÖÐÎÊ½£¬fontµÄ¼òÐ´£»
-cssÎÄ±¾ÑùÊ½£ºÊ¹ÓÃtext-decorationÌí¼ÓÎÄ±¾ÐÞÊÎ£¬text-indent£º2emÌí¼ÓÊ×ÐÐËõ½øÁ©×Ö·û£¬line-heightÉèÖÃÐÐ¼ä¾à£¬letter-spacingÉèÖÃ×Ö·û¼ä¾à£¬word-spacingÉèÖÃÓ¢ÎÄµ¥´Ê¼ä¾à£¬text-alignÉèÖÃÎÄ±¾¶ÔÆë·½Ê½£»
-cssºÐÄ£ÐÍ£º¿é¼¶ÔªËØ£¬ÄÚÁªÔªËØ£¬ÄÚÁ²¿é×´ÔªËØ£¬noneÊ¹ÔªËØÒþÉí£¬ÉèÖÃ¿í¶È¡¢¸ß¶È¡¢±³¾°É«¡¢±ß¿ò¡¢Ô²½Ç£¬paddingÄÚ±ß¾à£¬marginÍâ±ß¾à£»
-css²¼¾ÖÄ£ÐÍ£ºÁ÷¶¯Ä£ÐÍflow£¬¸¡¶¯Ä£ÐÍfloat£¬²ãÄ£ÐÍlayer£¬²ãÄ£ÐÍµÄ¾ø¶Ô¶¨Î»¡¢Ïà¶Ô¶¨Î»¡¢¹Ì¶¨¶¨Î»£¬Ïà¶Ô¶¨Î»Óë¾ø¶Ô¶¨Î»×éºÏ£»
-cssµ¯ÐÔºÐÄ£ÐÍ£ºflexÊôÐÔ£¬ºáÖáÅÅÁÐ£¬×ÝÖáÅÅÁÐ£¬flexÕ¼±È£»
-ÐÐÄÚÔªËØË®Æ½¾ÓÖÐÉèÖÃ£»
-¶¨¿í¿é×´ÔªËØË®Æ½¾ÓÖÐÉèÖÃ£»
-ÒÑÖª¿í¸ßÊµÏÖºÐ×ÓË®Æ½´¹Ö±¾ÓÖÐ£»
-²»Öª¿í¸ßÊµÏÖºÐ×ÓË®Æ½´¹Ö±¾ÓÖÐ¡£
+CSS3éƒ¨åˆ†å…·ä½“å†…åŒåŒ…æ‹¬:
+csså¼•å…¥æ–¹å¼ï¼šå†…è”å¼ï¼ŒåµŒå…¥å¼ï¼Œå¤–éƒ¨å¼ï¼Œä¸‰ç§é“¾æŽ¥æ–¹å¼ä¼˜å…ˆçº§ï¼›
+cssé€‰æ‹©å™¨ï¼šæ ‡ç­¾é€‰æ‹©å™¨ï¼Œç±»é€‰æ‹©å™¨ï¼ŒIDé€‰æ‹©å™¨ï¼ŒåŽä»£é€‰æ‹©å™¨ï¼Œé€šç”¨é€‰æ‹©å™¨ï¼Œä¼ªç±»é€‰æ‹©å™¨ï¼ˆç»™htmlæ ‡ç­¾çš„æŸç§çŠ¶æ€è®¾ç½®æ ·å¼ï¼‰ï¼Œåˆ†ç»„é€‰æ‹©å™¨ï¼›
+æ ·å¼ç»§æ‰¿ï¼Œä¼˜å…ˆçº§ï¼Œæœ€é«˜å±‚çº§ï¼importantï¼›
+csså­—ä½“æ ·å¼ï¼šfont-familyè®¾ç½®å­—ä½“ç³»åˆ—ï¼Œfont-sizeè®¾ç½®å­—ä½“å¤§å°ï¼Œfont-weightè®¾ç½®å­—ä½“ç²—ç»†ï¼Œfont-styleè®¾ç½®å­—ä½“æ ·å¼ï¼Œcolorè®¾ç½®å­—ä½“é¢œè‰²çš„ä¸‰ç§å½¢å¼ï¼Œfontçš„ç®€å†™ï¼›
+cssæ–‡æœ¬æ ·å¼ï¼šä½¿ç”¨text-decorationæ·»åŠ æ–‡æœ¬ä¿®é¥°ï¼Œtext-indentï¼š2emæ·»åŠ é¦–è¡Œç¼©è¿›ä¿©å­—ç¬¦ï¼Œline-heightè®¾ç½®è¡Œé—´è·ï¼Œletter-spacingè®¾ç½®å­—ç¬¦é—´è·ï¼Œword-spacingè®¾ç½®è‹±æ–‡å•è¯é—´è·ï¼Œtext-alignè®¾ç½®æ–‡æœ¬å¯¹é½æ–¹å¼ï¼›
+cssç›’æ¨¡åž‹ï¼šå—çº§å…ƒç´ ï¼Œå†…è”å…ƒç´ ï¼Œå†…æ•›å—çŠ¶å…ƒç´ ï¼Œnoneä½¿å…ƒç´ éšèº«ï¼Œè®¾ç½®å®½åº¦ã€é«˜åº¦ã€èƒŒæ™¯è‰²ã€è¾¹æ¡†ã€åœ†è§’ï¼Œpaddingå†…è¾¹è·ï¼Œmarginå¤–è¾¹è·ï¼›
+csså¸ƒå±€æ¨¡åž‹ï¼šæµåŠ¨æ¨¡åž‹flowï¼Œæµ®åŠ¨æ¨¡åž‹floatï¼Œå±‚æ¨¡åž‹layerï¼Œå±‚æ¨¡åž‹çš„ç»å¯¹å®šä½ã€ç›¸å¯¹å®šä½ã€å›ºå®šå®šä½ï¼Œç›¸å¯¹å®šä½ä¸Žç»å¯¹å®šä½ç»„åˆï¼›
+csså¼¹æ€§ç›’æ¨¡åž‹ï¼šflexå±žæ€§ï¼Œæ¨ªè½´æŽ’åˆ—ï¼Œçºµè½´æŽ’åˆ—ï¼Œflexå æ¯”ï¼›
+è¡Œå†…å…ƒç´ æ°´å¹³å±…ä¸­è®¾ç½®ï¼›
+å®šå®½å—çŠ¶å…ƒç´ æ°´å¹³å±…ä¸­è®¾ç½®ï¼›
+å·²çŸ¥å®½é«˜å®žçŽ°ç›’å­æ°´å¹³åž‚ç›´å±…ä¸­ï¼›
+ä¸çŸ¥å®½é«˜å®žçŽ°ç›’å­æ°´å¹³åž‚ç›´å±…ä¸­ã€‚
 
 ________________________________________________________________
 -----------------------------------------------------------------------------------------------
-²¿·Ö±Ê¼ÇÔÚCSDN¸öÈËÖ÷Ò³£º
+éƒ¨åˆ†ç¬”è®°åœ¨CSDNä¸ªäººä¸»é¡µï¼š
 https://blog.csdn.net/weixin_38703170/article/details/105756368
 https://blog.csdn.net/weixin_38703170/article/details/106000173
 
-»¶Ó­ÁôÑÔ×ÉÑ¯£¡
+æ¬¢è¿Žç•™è¨€å’¨è¯¢ï¼
