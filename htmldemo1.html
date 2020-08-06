@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<!--声明文档类型为html5-->
+<html lang="en">
+<!--html文件的根标签-->
+
+<head>
+    <!--头部标签，一般用来放meta和title标签-->
+    <meta charset="UTF-8">
+    <!--声明当前文件字符编码集-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--设置浏览器标题-->
+    <title>html与css入门教程</title>
+
+    <!-- 嵌入式css样式 -->
+    <!-- <style type="text/css">
+        span {
+            color: red;
+        }
+    </style> -->
+
+    <!-- 外部式css样式 -->
+    <!-- "rel" and "type" is fixed and cannot be modified; "href" is the name of CSS file -->
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+
+    <!-- 内联式css样式.选择器优先级比较:内联样式>id选择器>类选择器>标签选择器>通配符选择器 -->
+    <header class="bestme" id="bestme" style="color: red">我是如此优秀</header>
+
+    <!-- 类选择器：Set a class for the labels -->
+    <h1 class="me">优秀的我</h1>
+    <h2>优秀的我</h2>
+    <h3 class="me">优秀的我</h3>
+    <h4>优秀的我</h4>
+    <h5 class="me">优秀的我</h5>
+    <h6>优秀的我</h6>
+
+    <!-- 网页内容 -->
+    <div>
+        <p>我的第<span>一</span>段。<br />我美丽&nbsp;漂亮&nbsp;温柔&nbsp;大方。</p>
+        <p>我的第<span>二</span>段。<br />我内外&nbsp;兼修&nbsp;秀外&nbsp;慧中。</p>
+    </div>
+    <hr />
+
+    <h2>有序列表</h2>
+    <div>
+        <h3>我的优点</h3>
+        <ol>
+            <li>温柔</li>
+            <li>善良</li>
+            <li>开朗</li>
+            <li>乐观</li>
+        </ol>
+    </div>
+    <hr />
+
+    <h2>图片 链接</h2>
+    <div>
+        <!-- src图片地址；alt下载失败时的替换文本；title提示文本 -->
+        <img src="E:\MyJob\公众号\图片\5.jpeg" alt="下载失败了" title="点赞">
+
+        <!-- 单击click here ，网页链接到href后的网页；鼠标滑过链接文字显示title里的文字； target：网页的打开方式。有两个值：_self为在当前窗口打开；_blank为在新窗口打开。-->
+        <a href="http://www.baidu.com" title="百度一下" target="_blank">click here</a>
+    </div>
+    <hr />
+
+    <h2>表格标签</h2>
+    <table border="5">
+        <caption>前端三剑客</caption>
+        <tr>
+            <th>知识点</th>
+            <th>重要程度</th>
+            <th>难度</th>
+            <th>学习周期</th>
+        </tr>
+        <tr>
+            <td>html</td>
+            <td>5星</td>
+            <td>3星</td>
+            <td>7天</td>
+        </tr>
+        <tr>
+            <td>css</td>
+            <td>5星</td>
+            <td>4星</td>
+            <td>10天</td>
+        </tr>
+        <tr>
+            <td>js</td>
+            <td>5星</td>
+            <td>5星</td>
+            <td>20</td>
+        </tr>
+    </table>
+    <hr />
+
+    <h2>表单标签</h2>
+    <form action="post" action="">
+        <label for="text"> 姓名：</label>
+        <!-- 用ID选择器修改样式 -->
+        <input type="text" name="myName" id="name" placeholder="请输入用户名"><br />
+
+        <label for="password"> 密码：</label>
+        <input type="password" name="myPassword" id="password" placeholder="请输入密码">
+
+        <br /><br /> 数字：
+
+        <input type="number" name="myOld" id="number" placeholder="How old are you?">
+        <br /><br /> 网址：
+        <input type="url" name="myUrl" id="url" title="Please input a URL.">
+        <br /><br /> 邮箱：
+        <input type="email" name="myEmail" id="email" title="Please input your Email.">
+        <hr /> 你的答案：
+        <textarea name="myAnswer" id="textarea" cols="30" rows="10">Please input your answer here...</textarea>
+        <hr />
+
+        <!-- 单选框type="radio"，value：提交到服务器的数据；name：控件名，方便后台程序使用；checked：默认被选中 -->
+        <!-- Pay attention: Radio buttons of the same grounp, the value of "name" must be the same. -->
+        Your gender:
+        <input type="radio" name="gender" value="1" id="male" checked="checked"><label for="male">male</label>
+        <input type="radio" name="gender" value="2" id="female"><label for="female">female</label>
+        <br />
+
+        <!-- 复选框type="checkbox" -->
+        Which sports are you interested in?<br />
+        <input type="checkbox" name="run" value="run" id="run" checked="checked"><label for="run">Run</label><br />
+        <input type="checkbox" name="football" value="palyFootball" id="football"><label for="football">Play
+            football</label><br />
+        <input type="checkbox" name="basketball" value="palyBasketball" id="basketball"><label for="basketball">Play
+            basketball</label><br />
+
+        <!-- 下拉菜单 -->
+        Which sports are you interested in?
+        <select name="" id="">
+            <!-- the "value" is submitted to the server -->
+            <option value="palyFootball">Play football</option>
+            <!-- Set the selected="selected", then the option is selected default. -->
+            <option value="run" selected="selected">Run</option>
+            <option value="palyBasketball">Play basketball</option>
+        </select>
+        <br />
+
+        <!-- Submit button -->
+        <input type="submit" value="Submit" name="submitBtn">
+
+        <!-- Reset button -->
+        <input type="reset" value="Reset" name="resetBtn">
+    </form>
+    <br />
+    <hr />
+    <section>
+        专栏
+    </section>
+    <hr />
+
+
+    <h2>font-style设置字体样式</h2>
+    <div>
+        <p id="normal">正常字体</p>
+        <p id="italic">本身斜体</p>
+        <p id="oblique">强制倾斜</p>
+    </div>
+    <hr />
+
+    <h2>使用三种方式设置字体颜色</h2>
+    <div class="color">
+        <p id="color1">我怎么这么好看</p>
+        <p id="color2">我怎么这么好看</p>
+        <p id="color3">我怎么这么好看</p>
+    </div>
+    <br />
+
+    <h2>text-decoration添加文本修饰</h2>
+    <div class="decoration">
+        <p id="overline">线在头顶</p>
+        <p id="underline">线在脚底</p>
+        <p id="through">线穿过身体</p>
+    </div>
+
+    <h2>首行缩进俩字符 设置行间距 设置文字/字母间隔 设置单词间隔</h2>
+    <div class="text">
+        <p>自定义 tabBar 可以让开发者更加灵活地设置 tabBar 样式，以满足更多个性化的场景。 在自定义 tabBar 模式下为了保证低版本兼容以及区分哪些页面是 tab 页，tabBar 的相关配置项需完整声明，但这些字段不会作用于自定义 tabBar 的渲染。 此时需要开发者提供一个自定义组件来渲染 tabBar，所有 tabBar 的样式都由该自定义组件渲染。推荐用 fixed 在底部的 cover-view + cover-image 组件渲染样式，以保证 tabBar 层级相对较高。
+            与 tabBar 样式相关的接口，如 wx.setTabBarItem 等将失效。 每个 tab 页下的自定义 tabBar 组件实例是不同的，可通过自定义组件下的 getTabBar 接口，获取当前页面的自定义 tabBar 组件实例。 注意：如需实现 tab 选中态，要在当前页面下，通过 getTabBar 接口获取组件实例，并调用 setData 更新选中态。可参考底部的代码示例。
+        </p>
+    </div>
+    <hr />
+
+    <h2>盒模型：设置背景色 边框</h2>
+    <p class="box">当初是你要分开，分开就分开。过了一天你又说你开玩笑？<span>我信你个鬼！</span>开你的玩笑去吧，离我远点，别影响我变强。</p>
+    <hr />
+
+    <h2>浮动模型：块级元素并排显示</h2>
+    <div class="floatdiv">
+        <div id="div1">我是第一个div</div>
+        <div id="div2">我是第二个div</div>
+    </div>
+    <hr />
+
+    <!-- <h2>层模型--绝对定位</h2> -->
+    <div class="absolute">我是层模型绝对定位</div>
+
+    <!-- <h2>层模型--相对定位</h2> -->
+    <div class="relative">我是层模型相对定位</div><span>我在偏移前的位置下面，偏移前的位置是保留的</span>
+
+    <!-- <h2>层模型--固定定位</h2> -->
+    <div class="fixed">我是层模型固定定位，被固定在了右下角，你滚滚看</div>
+
+    <h2>relative与absolute组合定位</h2>
+    <div id="box_father">
+        <img src="E:\MyJob\公众号\图片\5.jpeg" alt="下载失败了" title="点赞">
+        <div id="box_child">好看吧</div>
+    </div>
+    <hr/>
+
+    <h2>弹性盒模型--flex</h2>
+    <div class="boxflex">
+        <div class="boxflex1">1</div>
+        <div class="boxflex2">2</div>
+        <div class="boxflex3">3</div>
+    </div>
+    <hr/>
+
+    <h2>已知宽高实现盒子水平垂直居中</h2>
+    <div class="box3">
+        <div class="box4"></div>
+    </div>
+
+    <h2>不知宽高实现盒子水平垂直居中</h2>
+    <div class="box5">
+        <div class="box6">我是最强的最棒的最可爱的阳光彩虹小白马</div>
+    </div>
+
+    <footer>底部</footer>
+</body>
+
+</html>

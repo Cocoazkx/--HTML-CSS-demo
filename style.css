@@ -1,0 +1,310 @@
+/* 标签选择器 */
+
+header {
+    color: royalblue!important;
+}
+
+h2 {
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
+}
+
+
+/* 类选择器 */
+
+.me {
+    color: salmon;
+}
+
+.bestme {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* ID选择器 */
+
+#name {
+    color: springgreen;
+}
+
+#bestme {
+    color: slategray;
+}
+
+body {
+    font-size: 12px;
+    line-height: 1.5em;
+    font-weight: bold;
+    /* font-style: italic; */
+    /* 使用font-family设置字体 */
+    font-family: "宋体", sans-serif;
+    /* 简写。至少要指定font-size和font-family属性，其他属性未指定时自动使用默认值 */
+    font: 12px/1.5em bold "宋体", sans-serif;
+}
+
+
+/* font-style设置字体样式 */
+
+#normal {
+    /* 默认值，正常字体 */
+    font-style: normal;
+}
+
+#italic {
+    /* 斜体，用于字体本身就有倾斜的样式 */
+    font-style: italic;
+}
+
+#oblique {
+    /* 设置倾斜的字体，强制将字体倾斜 */
+    font-style: oblique;
+}
+
+
+/* color：使用三种方式设置字体颜色 */
+
+.color>#color1 {
+    /* 英文命令颜色 */
+    color: red;
+}
+
+.color>#color2 {
+    /* RGB颜色 */
+    color: rgb(255, 0, 0);
+}
+
+.color>#color3 {
+    /* 十六进制颜色 */
+    color: #ff0000;
+}
+
+
+/* text-decoration添加文本修饰 */
+
+#overline {
+    text-decoration: overline;
+}
+
+#underline {
+    text-decoration: underline;
+}
+
+#through {
+    text-decoration: line-through;
+}
+
+
+/* font样式的简写方式 */
+
+body {
+    font-size: 12px;
+    line-height: 1.5em;
+    font-weight: bold;
+    /* font-style: italic; */
+    /* 使用font-family设置字体 */
+    font-family: "宋体", sans-serif;
+    /* 简写。至少要指定font-size和font-family属性，其他属性未指定时自动使用默认值 */
+    font: 12px/1.5em bold "宋体", sans-serif;
+}
+
+.text>p {
+    /* 首行缩进俩空格。2em：文字的两倍大小 */
+    text-indent: 1.5em;
+    /* 设置行间距为二倍行间距 */
+    line-height: 2em;
+    /* 设置文字/字母间隔 */
+    letter-spacing: 2px;
+    /* 设置英文单词间隔 */
+    word-spacing: 2px;
+}
+
+
+/* 设置文本对齐方式 */
+
+.decoration {
+    text-align: center;
+}
+
+
+/* 盒模型 */
+
+.box {
+    /* 给块状元素设置背景色 */
+    background-color: skyblue;
+    /* 添加边框 */
+    border: 2px solid black;
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: black; */
+    /* 设置圆角 */
+    /* 分别设置左上-右上-右下-左下 */
+    border-radius: 10px 20px 30px 40px;
+    /* 分别写 */
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 40px; */
+    /* 四个圆角都一样 */
+    /* border-radius: 10px; */
+    /* 左上和右下效果一样，右上和坐下效果一样 */
+    /* border-radius: 10px 15px; */
+    /* 内填充：上下、左右 。分开写时按顺时针*/
+    padding: 10px 20px;
+    /* 外边距 上下、左右。分开写时顺时针*/
+    margin: 10px 20px;
+}
+
+.box>span {
+    /* 给内联元素设置背景颜色 */
+    background-color: tomato;
+}
+
+
+/* 浮动模型 */
+
+.floatdiv {
+    width: 500px;
+    height: 300px;
+}
+
+.floatdiv div {
+    border: 2px blue solid;
+    width: 200px;
+    height: 100px;
+    float: right;
+}
+
+
+/* #div1 {
+    float: left;
+}
+
+#div2 {
+    float: right;
+} */
+
+
+/* 层模型--绝对定位 */
+
+.absolute {
+    border: solid 2px blueviolet;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+
+
+/* 层模型--相对定位 */
+
+.relative {
+    border: solid 2px blueviolet;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    /* 相对于原来位置（左上角）向下偏移了200px，向右偏移了200px */
+    left: 200px;
+    top: 200px;
+}
+
+
+/* 层模型--固定定位 */
+
+.fixed {
+    border: solid 2px blueviolet;
+    width: 200px;
+    height: 100px;
+    position: fixed;
+    /* 固定在浏览器视图右下角*/
+    bottom: 0;
+    right: 0;
+}
+
+
+/* 层模型--相对对位与绝对定位组合 */
+
+#box_father {
+    position: relative;
+}
+
+#box_father img {
+    width: 200px;
+    height: 200px;
+}
+
+#box_child {
+    position: absolute;
+    bottom: 0;
+    font-size: 20px;
+}
+
+
+/* 弹性盒模型 flex */
+
+.boxflex {
+    display: flex;
+    background-color: burlywood;
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+}
+
+.boxflex div {
+    width: 200px;
+    height: 200px;
+}
+
+.boxflex1 {
+    /* 设置子元素相对于父元素的占比 */
+    flex: 1;
+    background-color: blueviolet;
+}
+
+.boxflex2 {
+    flex: 2;
+    background-color: rgb(240, 23, 70);
+}
+
+.boxflex3 {
+    flex: 3;
+    background-color: rgb(0, 2, 14);
+}
+
+
+/* 已知宽高实现盒子水平垂直居中 */
+
+.box3,
+.box5 {
+    border: darkblue 2px solid;
+    height: 300px;
+    position: relative;
+}
+
+.box4 {
+    width: 200px;
+    height: 200px;
+    border: tomato 1px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -100px;
+}
+
+
+/* 不知宽高实现盒子水平垂直居中 */
+
+.box6 {
+    border: 1px solid rebeccapurple;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer {
+    display: block;
+}
